@@ -1,0 +1,38 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  height: fit-content;
+}
+
+.bannerBackground {
+  background-image: linear-gradient(
+    45deg,
+    hsl(135deg 64% 39%) 0%,
+    hsl(119deg 45% 46%) 27%,
+    hsl(105deg 49% 47%) 37%,
+    hsl(94deg 53% 48%) 43%,
+    hsl(86deg 57% 49%) 48%,
+    hsl(78deg 60% 50%) 52%,
+    hsl(72deg 65% 51%) 59%,
+    hsl(66deg 70% 52%) 68%,
+    hsl(60deg 75% 53%) 81%,
+    hsl(55deg 93% 58%) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.magicText {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 72px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
